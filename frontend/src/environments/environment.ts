@@ -1,5 +1,5 @@
-/** Runtime configuration. The API base is rewritten at build time for production deploys (F7). */
+/** Production runtime config — TeamFlow API on Azure. */
 export const environment = {
-  production: false,
-  apiBase: 'http://localhost:5190',
+  production: true,
+  apiBase: 'https://teamflow-api-luisgxz.azurewebsites.net',
 };
