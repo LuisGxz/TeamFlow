@@ -50,3 +50,5 @@ SaaS minimalista y veloz. Acento único **índigo `#5B5BD6`**. Claro: fondo `#F0
 - **Owner:** `owner@teamflow.app` / `Owner123!` (Alex Rivera — Owner de Acme Engineering, Admin de Northwind Marketing → muestra multi-tenant)
 - **Member:** `member@teamflow.app` / `Member123!` (Sam Chen — Member de Acme Engineering)
 - **Viewer:** `viewer@teamflow.app` / `Viewer123!` (Jordan Lee — Viewer de Acme Engineering, Member de Northwind)
+
+- 2026-06-21 · **DEPLOY ✅** En vivo: Pages **luisgxz.github.io/TeamFlow** + API Azure **teamflow-api-luisgxz.azurewebsites.net** (rg `teamflow-rg`, **F1 Windows Central US** + **Azure SQL serverless free** AutoPause). Repo `LuisGxz/TeamFlow` (push + gh-pages). E2E prod verificado (owner→boards, multi-tenant seed, **0 errores consola**). Card portfolio `status:"live"`. Trampa: **MSYS_NO_PATHCONV=1** obligatorio en `ng build --base-href /TeamFlow/` (git-bash convierte `/TeamFlow/` a `C:/Program Files/Git/...` y rompe el base href).
